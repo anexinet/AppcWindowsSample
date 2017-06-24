@@ -1,0 +1,14 @@
+{
+	"--title": "Propelics App - Titanium App",
+	"--output": "./website",
+	"--touch-examples": true,
+	"--no-source": true,
+	"--welcome": "./welcome.html",
+	"--footer": "copyright propelics 2017",
+	"--tags": "./customTags/customTags.rb",
+	"--guides": "./release.json",
+	"--ignore-global": true,
+	"--external": "Ti.*,Alloy.*",
+	"--images": "./fu-layout/images",
+	"--head-html": "<link rel=\"stylesheet\" href=\"../fu-layout/fucss.css\" type=\"text/css\" />"
+}

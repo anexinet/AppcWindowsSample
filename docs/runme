@@ -1,0 +1,8 @@
+# Run this script to configure the jsduck documentation
+
+jsduck ../app
+
+cp -R fu-layout ~/TiWorkspace/Viziti/docs/generatedDocumentation/fu-layout
+cp favicon.ico ~/TiWorkspace/Viziti/docs/generatedDocumentation/favicon.ico
+
+exit

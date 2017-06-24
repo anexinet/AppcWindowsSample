@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Release Notes",
+        "items": [
+            {
+                "name": "releaseSprint1",
+                "url": "releaseNotes/releaseSprint1",
+                "title": "Notes Sprint 1",
+                "description": "TBD"
+            }
+        ]
+    }
+]

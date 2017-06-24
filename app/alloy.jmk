@@ -1,0 +1,29 @@
+var exec = require("child_process").exec;
+
+task("pre:compile", function(event, logger) {
+	exec("npm install && grunt default", function (_error, _stdout, _stderr) {
+
+
+		if (_stdout) {
+			logMultilineString(_stdout, logger);
+			
+			if (_error) {
+				logger.error('Error running Grunt');
+				process.exitCode = 1;
+			}
+		}
+
+		if (_stderr) {
+			logMultilineString(_stderr, logger);
+		}
+	});
+	logger.info("[pre-compile] Grunt has been executed.");
+});
+
+function logMultilineString(string, logger) {
+	var string = string.split('\n');
+	
+	for (var i = 0, j = string.length; i < j; i++) {
+		logger.info(string[i]);
+	}
+}

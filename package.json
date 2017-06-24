@@ -1,0 +1,17 @@
+{
+  "name": "Propelics_App",
+  "version": "0.1.0",
+  "repository": "local",
+  "license": "Copyright (C) Propelics, Inc - All Rights Reserved",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jsbeautifier": "^0.2.10",
+    "grunt-jscs": "^3.0.1",
+    "grunt-jsduck": "^1.0.1",
+    "grunt-xml-validator": "^1.1.2",
+    "jshint-stylish": "^2.2.0",
+    "tiapp.xml": "^0.2.2"
+  }
+}
